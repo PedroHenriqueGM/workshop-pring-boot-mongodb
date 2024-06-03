@@ -5,7 +5,7 @@
 
 Este projeto é uma aplicação backend para web services realizada durante o curso completo de Java oferecido pela plataforma EAD Udemy.
 
-A aplicação consiste na implementação de uma API REST dividida em camadas testada no banco de dados não relacional MongoDB. Esta aplicação possui um CRUD completo para a entidade User que pode ser autora de um ou mais posts, nos quais podem estar comentados por outros usuários.
+A aplicação consiste na implementação de uma API Restful dividida em camadas testada no banco de dados não relacional MongoDB. Esta aplicação possui um CRUD completo para a entidade User que pode ser autora de um ou mais posts, nos quais podem estar comentados por outros usuários.
 Por ser um banco de dados não relacional orientado a documentos, é possível deletar um User sem que haja comprometimento na integridade dos dados, visto que eles continuarão a existir como documentos independentes.
 
 
