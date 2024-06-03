@@ -10,7 +10,7 @@ Por ser um banco de dados não relacional orientado a documentos, é possível d
 
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/PedroHenriqueGM/workshop-pring-boot-mongodb/blob/main/Captura%20de%20tela%202024-06-03%20185233.png)
+![Modelo Conceitual](https://github.com/PedroHenriqueGM/workshop-pring-boot-mongodb/blob/main/Captura%20de%20tela%202024-06-03%20191440.png)
 
 # Tecnologias utilizadas
 ## Back end
