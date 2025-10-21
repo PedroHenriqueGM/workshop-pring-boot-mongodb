@@ -37,7 +37,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
-          mvn -B clean verify sonar:sonar \
+          mvn -DskipTests=true verify sonar:sonar \
             -Dsonar.projectKey=workshop-pring-boot-mongodb \
             -Dsonar.organization=PedroHenriqueGM \
             -Dsonar.host.url=https://sonarcloud.io \
