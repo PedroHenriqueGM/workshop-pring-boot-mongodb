@@ -38,7 +38,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn -DskipTests=true verify sonar:sonar \
-            -Dsonar.projectKey=workshop-pring-boot-mongodb \
-            -Dsonar.organization=PedroHenriqueGM \
+            -Dsonar.projectKey=PedroHenriqueGM_workshop-pring-boot-mongodb \
+            -Dsonar.organization=pedrohenriquegm \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
